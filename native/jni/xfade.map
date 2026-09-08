@@ -1,0 +1,14 @@
+{
+  global:
+    SL_IID_ENGINE;
+    SL_IID_PLAY;
+    SL_IID_BUFFERQUEUE;
+    SL_IID_VOLUME;
+    slCreateEngine;
+    Java_dev_spotifytv_crossfade_extension_CrossfadeNative_getStatus;
+    Java_dev_spotifytv_crossfade_extension_CrossfadeNative_setCrossfadeMs;
+    Java_dev_spotifytv_crossfade_extension_CrossfadeNative_onMetadata;
+    Java_dev_spotifytv_crossfade_extension_CrossfadeNative_setDumpDir;
+  local:
+    *;
+};
