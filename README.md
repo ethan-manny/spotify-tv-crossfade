@@ -1,5 +1,12 @@
 # Spotify TV Crossfade (Morphe patches)
 
+> **Disclaimer.** This patch does not provide, unlock or bypass any Spotify Premium feature. It
+> does not remove ads, does not change what Spotify streams or the quality it streams at, and
+> does not touch Spotify's content protection, accounts or subscriptions. It works with whatever
+> account you already have and only adds a crossfade to the playback the app already delivers.
+> The Amazon Appstore DRM patch only lets a re-signed copy of the app start on Fire TV. This
+> project is not affiliated with or endorsed by Spotify or Amazon.
+
 Adds crossfade between songs to the Spotify TV app (`com.spotify.tv.android` 1.134.2, Fire TV) by
 placing a native audio library between Spotify's embedded player (the eSDK) and the system OpenSL
 ES. The patched app loads `libxfade.so`, which presents the OpenSL ES surface the eSDK expects,
